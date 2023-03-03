@@ -1,4 +1,6 @@
 import React from "react";
+import "./Footer.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function Footer() {
   return (
@@ -35,11 +37,11 @@ export default function Footer() {
             >
               SheCodes
             </a>
-            Challenge project to develop my coding skills. This project was
-            coded by Anna Kuliga and is
+            project to develop my coding skills. This project was coded by Anna
+            Kuliga and is
             <a
-              href="https://github.com/AnnaKuliga/pop-star-project"
-              title="GitHub Pop Star Project"
+              href="https://github.com/AnnaKuliga/weather-app-react"
+              title="GitHub Weather App React"
               target="_blank"
               rel="noreferrer"
             >
