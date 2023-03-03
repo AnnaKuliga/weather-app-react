@@ -1,6 +1,8 @@
 import React from "react";
 import "./Footer.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCoffee } from "@fortawesome/free-solid-svg-icons";
 
 export default function Footer() {
   return (
@@ -8,6 +10,8 @@ export default function Footer() {
       <section className="grid grid-3-columns-footer">
         <div className="about-app">
           <h4>Weather App</h4>
+          <FontAwesomeIcon icon={faCoffee} />
+
           <hr />
           <p>
             This weather app is made for general use. It is free and everyone
