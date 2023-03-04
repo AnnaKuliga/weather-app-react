@@ -2,6 +2,7 @@ import React from "react";
 import Footer from "./Footer";
 import SearchEngine from "./SearchEngine";
 import Forecast from "./Forecast";
+import FiveDays from "./FiveDays";
 import "./Weather.css";
 
 export default function Weather() {
@@ -21,6 +22,7 @@ export default function Weather() {
       <main>
         <SearchEngine />
         <Forecast />
+        <FiveDays />
       </main>
       <footer>
         <Footer />
