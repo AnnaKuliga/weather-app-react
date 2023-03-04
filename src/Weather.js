@@ -3,7 +3,7 @@ import Footer from "./Footer";
 
 export default function Weather() {
   return (
-    <div>
+    <div className="WeatherBody">
       <header>
         <h1> Weather App</h1>
       </header>

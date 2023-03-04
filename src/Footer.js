@@ -1,8 +1,10 @@
 import React from "react";
 import "./Footer.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCoffee } from "@fortawesome/free-solid-svg-icons";
+import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope, faGraduationCap } from "@fortawesome/free-solid-svg-icons";
 
 export default function Footer() {
   return (
@@ -10,8 +12,6 @@ export default function Footer() {
       <section className="grid grid-3-columns-footer">
         <div className="about-app">
           <h4>Weather App</h4>
-          <FontAwesomeIcon icon={faCoffee} />
-
           <hr />
           <p>
             This weather app is made for general use. It is free and everyone
@@ -32,7 +32,7 @@ export default function Footer() {
           <h4>About the page</h4>
           <hr />
           <p>
-            I created this page as a part of
+            I created this page as a part of{" "}
             <a
               href="https://www.shecodes.io"
               title="SheCodes Website"
@@ -40,7 +40,7 @@ export default function Footer() {
               rel="noreferrer"
             >
               SheCodes
-            </a>
+            </a>{" "}
             project to develop my coding skills. This project was coded by Anna
             Kuliga and is
             <a
@@ -61,8 +61,8 @@ export default function Footer() {
           <div className="row" id="contact-info">
             <class className="col-sm-3 text-center">
               <a href="mailto:a.kuliga2@gmail.com" title="Email me">
-                <i className="fa-regular fa-envelope"></i>
-                <span className="email">a.kuliga2@gmail.com</span>
+                <FontAwesomeIcon icon={faEnvelope} />
+                <span className="email"> a.kuliga2@gmail.com</span>
               </a>
             </class>
             <class className="col-sm-3 text-center">
@@ -78,7 +78,7 @@ export default function Footer() {
                 rel="noreferrer"
                 title="SheCodes Anna's Profile"
               >
-                <i className="fa-solid fa-graduation-cap"></i>
+                <FontAwesomeIcon icon={faGraduationCap} />
               </a>
             </class>
             <class className="col-sm-2 text-center">
@@ -88,7 +88,7 @@ export default function Footer() {
                 rel="noreferrer"
                 title="LinkedIn Anna"
               >
-                <i className="fa-brands fa-linkedin-in"></i>
+                <FontAwesomeIcon icon={faLinkedinIn} />
               </a>
             </class>
             <class className="col-sm-2 text-center">
@@ -98,7 +98,7 @@ export default function Footer() {
                 rel="noreferrer"
                 title="GitHub Anna"
               >
-                <i className="fa-brands fa-github"></i>
+                <FontAwesomeIcon icon={faGithub} />
               </a>
             </class>
           </div>

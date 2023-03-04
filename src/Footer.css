@@ -7,25 +7,25 @@
   --primary-color: rgb(224, 224, 224);
   --secondary-color: #272044;
 }
-footer {
+Footer {
   color: var(--secondary-color);
   margin-top: 80px;
 }
-footer a {
+Footer a {
   color: var(--secondary-color);
   font-size: 13px;
   text-decoration: none;
 }
-footer a:hover {
+Footer a:hover {
   color: var(--hover-link-color);
 }
-footer i {
+Footer i {
   font-size: 18px;
 }
-footer h4 {
+Footer h4 {
   font-size: 20px;
 }
-footer p {
+Footer p {
   font-size: 13px;
   margin: 0;
   padding: 10px;
