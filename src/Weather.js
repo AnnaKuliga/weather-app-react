@@ -1,6 +1,7 @@
 import React from "react";
 import Footer from "./Footer";
 import SearchEngine from "./SearchEngine";
+import Forecast from "./Forecast";
 import "./Weather.css";
 
 export default function Weather() {
@@ -8,7 +9,7 @@ export default function Weather() {
     <div className="WeatherBody">
       <header>
         <div className="TimeZone">
-          <h1> Time Zones</h1>
+          <h2> Time Zones</h2>
           <ul className="navigation grid grid-four-columns">
             <li className="navigation-item">London</li>
             <li className="navigation-item">New York</li>
@@ -19,6 +20,7 @@ export default function Weather() {
       </header>
       <main>
         <SearchEngine />
+        <Forecast />
       </main>
       <footer>
         <Footer />

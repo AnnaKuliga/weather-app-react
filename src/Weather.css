@@ -4,3 +4,17 @@ header ul {
   flex-direction: row;
   text-align: center;
 }
+.forecast .day {
+  text-transform: uppercase;
+}
+.forecast .day,
+.time {
+  font-size: 20px;
+}
+.forecast ul {
+  list-style: none;
+  display: inline;
+}
+.forecast .currentTemp {
+  font-size: 25px;
+}
