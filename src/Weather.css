@@ -1,8 +1,25 @@
+:root {
+  --artistic-font: "Explora", cursive;
+  --body-color: rgb(241, 241, 241);
+  --header-font: "Prata", serif;
+  --hover-link-color: #8277ac;
+  --main-font: "Playfair Display", serif;
+  --primary-color: rgb(224, 224, 224);
+  --secondary-color: #272044;
+}
 header ul {
   list-style: none;
   display: flex;
   flex-direction: row;
   text-align: center;
+}
+header .navigation {
+  margin: 0;
+  padding: 0 0 40px 0;
+}
+.fiveDays {
+  text-align: center;
+  padding: 20px 0;
 }
 .forecast .day {
   text-transform: uppercase;
@@ -17,4 +34,11 @@ header ul {
 }
 .forecast .currentTemp {
   font-size: 25px;
+}
+.WeatherBody {
+  border: 1px solid var(--secondary-color);
+  display: block;
+  margin: 0 auto;
+  padding: 40px 50px;
+  width: 900px;
 }
