@@ -26,6 +26,9 @@ body {
 .grid-3-columns {
   grid-template-columns: 1fr 1fr 1fr;
 }
+.grid-four-columns {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
 .grid-3-columns-footer {
   grid-template-columns: 2fr 2fr 2fr;
 }
