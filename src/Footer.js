@@ -42,7 +42,7 @@ export default function Footer() {
               SheCodes
             </a>{" "}
             project to develop my coding skills. This project was coded by Anna
-            Kuliga and is
+            Kuliga and is{" "}
             <a
               href="https://github.com/AnnaKuliga/weather-app-react"
               title="GitHub Weather App React"

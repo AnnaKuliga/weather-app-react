@@ -21,6 +21,9 @@ header .navigation {
   text-align: center;
   padding: 20px 0;
 }
+.forecast .currentTemp {
+  font-size: 25px;
+}
 .forecast .day {
   text-transform: uppercase;
 }
@@ -28,12 +31,17 @@ header .navigation {
 .time {
   font-size: 20px;
 }
+.forecast img {
+  background-color: white;
+  border-radius: 50%;
+  transition: all 150ms ease-in-out;
+}
+.forecast img:hover {
+  transform: scale(1.2);
+}
 .forecast ul {
   list-style: none;
   display: inline;
-}
-.forecast .currentTemp {
-  font-size: 25px;
 }
 .WeatherBody {
   border: 1px solid var(--secondary-color);
