@@ -8,7 +8,9 @@
   --secondary-color: #272044;
 }
 body {
-  background-color: var(--body-color);
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/055/486/original/tomoko-uji-kxvn1ogpTtE-unsplash.jpg?1669570603);
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: var(--main-font);
   margin: 0 auto;
   max-width: 1200px;

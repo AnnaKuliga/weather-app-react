@@ -25,9 +25,8 @@ export default function Weather() {
           <FiveDays />
         </main>
       </div>
-      <footer>
-        <Footer />
-      </footer>
+
+      <Footer />
     </div>
   );
 }
