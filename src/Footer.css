@@ -8,6 +8,7 @@
   --secondary-color: #272044;
 }
 Footer {
+  background-color: #deaff490;
   color: var(--secondary-color);
   margin-top: 80px;
 }
