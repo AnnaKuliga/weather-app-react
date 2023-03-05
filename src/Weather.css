@@ -38,7 +38,7 @@ header .navigation {
 .WeatherBody {
   border: 1px solid var(--secondary-color);
   display: block;
-  margin: 20px 0 auto;
+  margin: 0 auto;
   padding: 40px 50px;
   width: 900px;
 }

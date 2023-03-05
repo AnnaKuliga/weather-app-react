@@ -8,7 +8,7 @@ import "./Weather.css";
 export default function Weather() {
   return (
     <div>
-      <div className="WeatherBody">
+      <div className="WeatherBody mt-3">
         <header>
           <div className="TimeZone">
             <ul className="navigation grid grid-four-columns">

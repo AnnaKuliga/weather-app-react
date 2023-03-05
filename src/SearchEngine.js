@@ -7,7 +7,7 @@ export default function SearchEngine() {
   let [city, setCity] = useState("");
   function handleSubmit(event) {
     event.preventDefault();
-    alert(`It is currently in ${city}`);
+    alert(`Searching for ${city}`);
   }
 
   function updateCity(event) {
